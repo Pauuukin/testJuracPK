@@ -211,3 +211,35 @@ footer div form textarea{
     padding: 10px;
     border: none;
 }
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.box {
+  position: relative;
+}
+
+.box:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 20%;
+  left: 0%;
+  background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.boxL {
+  position: relative;
+}
+
+.boxL:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0%;
+  left: 20%;
+  background-image: -moz-linear-gradient(right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
